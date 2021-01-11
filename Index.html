@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name=" viewport" content="width=device-width ,initial-scale=1.0">	
+	<title>KFN</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+	<body>
+		<!-- <section class= "showcase"> -->
+		<!-- To make showcase active -->
+		<!-- <section class= "showcase active"> -->
+		<!-- Remove the active for JS -->
+		<section class="showcase">
+			<header>
+				<h2 class="logo"><img src="Sahd Kicks.png"></h2>
+				<!-- Add active to toggle -->
+				<!-- <div class="toggle"></div> -->
+				<!-- <div class="toggle active"></div> -->
+				<!-- Remove the active for JS -->
+				<div class="toggle"></div>
+				<!-- Add the line below after css.logo -->
+				<!-- <div class= "toggle active"></div> -->
+			</header>
+			<video src="Shoes video.MP4" autoplay muted loop></video>
+
+			<div class="overlay"></div>
+
+			<div class="text">
+				<h2>Kicks From Nissi</h2>
+				<h3><i>The only Shoe Santa</i></h3>
+
+				<p><b>Legend says "Nice shoes attracts nice things". And Legend is never wrong. Get your quality and affordable shoes from Nissi today!</b>
+				<p>You probably think the shoes youve got right now are the best for you. Well you're wrong. Because you haven't gotten your kicks from Nissi!</p>	
+
+				<a href="#">Available Shoes</a>
+			</div>
+
+				<ul class="social">
+					<li><a href="https://www.facebook/Elnissi.Williams"><img src="facebook.png"></a></li>
+					<li><a href="https://www.twitter/iAmElnissi"><img src="twitter.png"></a></li>
+					<li><a href="https://www.instagram/iamelnissi"><img src="instagram.png"></a></li>
+				</ul>
+		</section>
+			<div class="menu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Images</a></li>
+					<li><a href="">Reviews</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+
+			<script type="text/javascript">
+				const menuToggle = document.querySelector('.toggle');
+				const showcase = document.querySelector('.showcase');
+
+				menuToggle.addEventListener('click', () => {
+					menuToggle.classList.toggle('active')
+					showcase.classList.toggle('active')
+				});
+			</script>
+	</body>
+</html>
